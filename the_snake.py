@@ -136,7 +136,6 @@ class Snake(GameObject):
         """Возвращает координаты головы змейки."""
         return self.positions[0]
 
-
     def reset(self):
         """Сбрасывает змейку в начальное состояние."""
         self.length = 1
